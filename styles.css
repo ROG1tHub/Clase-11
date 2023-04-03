@@ -2,21 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
+    text-decoration: none;
   list-style: none;
 }
-
-body{
-  font-family: 'Nunito', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-}
 header {
-  background-color: #417fbd;
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 header img {
   max-width: 100%;
   height: auto;
@@ -27,11 +20,12 @@ li{
   font-weight: bold;
 }
 .boton{
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
-  font-weight: bold;
-  background: rgb(245, 0, 82);
+  font-weight: 700;
+  background: #E21982;
   color: white;
-  border: 1px rgb(245, 0, 82) ;
+  border: 1px #E21982 ;
   border-radius: 20px;
 }
 .navbar-nav .nav-item {
@@ -45,4 +39,79 @@ li{
   header img {
     margin-bottom: 10px;
   }
+}
+
+.banner-principal {
+  background-image: url(img/banner-principal.jpg);
+  background-size: cover; 
+  background-position: center center; 
+  width: 100vw;
+  height: 100vh;
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900 !important;
+  font-size: 40px !important;
+  color: #E8E8E8 !important;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #E8E8E8;
+  width: 100%;
+}
+.pretitulo{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200 !important;
+  font-size: 12px !important;
+  color:  #E21982;
+}
+.titulo-secundario{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900 !important;
+  font-size: 28px !important;
+}
+.txt-general{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color: #22193F;
+}
+.color-numero{
+  color:  #E21982;
+}
+.quienes-somos, .preguntas-frecuentes{
+  background-color: #E8E8E8;
+}
+.sumate{
+  background-color: #E21982;
+}
+.titulo-sumate{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700 !important;
+  font-size: 23px !important;
+  color: #E8E8E8;
+}
+.bl{border-color:#E8E8E8;
+  border-style: groove;
+}
+select{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  color: #22193F;
+}
+.banner-secundario {
+  background-image: url(img/banner-secundario.jpg);
+  background-size: cover; 
+  background-position: center center; 
+  width: 100vw;
+  height: 50vh;
+}
+.txt-banner-secundario{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700 !important;
+  font-size: 22px !important;
+  color: #E8E8E8;
 }
